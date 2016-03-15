@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="e">
+
+<head>
+	<meta charset="utf-8">
+	<title>Matthew Trahan's Website</title>
+	<meta name="description" content="Matthew Trahan's Website">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+	<link rel="icon" href="favicon.ico">
+
+</head>
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="#home" class="navbar-brand">Matthew Trahan</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				
+			<a href="MatthewTrahanResume" class="btn btn-primary navbar-btn navbar-right">See My Resume</a>
+				<ul class="nav navbar-nav">
+					<li><a href="#education">Education</a>
+					<li><a href="#projects">Projects</a>
+					<li><a href="#aboutme">About Me</a>
+					<li><a href="#skills">Skills</a>
+					<!--li><a href="#contact">Contact Me</a-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron" id="home">
+		<div class="container text-center">
+			<br><br><br><br><br>
+			<a href="https://www.cs.utexas.edu/~matthewt/"><img class="img-circle" src="me.jpg" style="width: 30%; height: 30%"></a>
+			<h1 style="font-family: open sans semibold; color: white;">Matthew Trahan</h1>
+			<h2 style="font-family: open sans semibold; color: white;">The University of Texas at Austin <br>Class of 2017</h2>
+			<!--h2 style="font-family: open sans; color: white;">Computer Science Undergrad at The University of Texas at Austin</h2-->
+			<h3></h3>
+			<br><br><br><br>
+		</div>
+	</div>
+
+	<div style="width: 100%; height: auto; position: relative; background-color: #000; background-image: url('ut2.jpg'); background-repeat: no-repeat; background-position: center; background-size:cover; background-attachment: fixed; min-height: 450px;" id="education">
+
+			<div class="container">
+			<br><br>
+			<!--h1 style="text-align: center; font-family: open sans semibold; color: black">Education</h1-->
+			<br>
+			<h2 style="text-align: center; font-family: open sans; color: black">Computer Science Student at The University of Texas at Austin</h2>
+			<br>
+			<br>
+			</div>
+		</div>
+	</div>
+
+	<div class="projects" id="projects">
+		<div class="container">
+			<section>
+				<div class="page-header">
+					<h1 style="text-align: center; font-family: open sans;">Projects</h1>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<h2 class="h2" style="color:white;"><br>Fantasy Mock Drafter</h2>
+						<p class="p">In order to challenge myself, as well as entertain myself, I decided to make a mock drafter for fantasy sports. The program picks an optimized team based on past and future performance. If there is a large expected decline in performance, the program tends to shy away from that player. The program also gives the user option to pick draft slot, and enable a bias towards favorite players or teams.</p>
+					</div>
+					<div class="col-sm-6">
+						<img src="draft.jpg" style="height: 80%; width: 80%;margin-left: auto; margin-right:auto;" class="img-responsive rounded-corners" alt="">
+					</div>
+				</div>
+	            <br>
+				<div class="row">
+					<div class="col-sm-6">
+						<h2 class="h2" style="color:white;"><br><br>Mission Capital</h2>
+						<p class="p">I am working with Mission Capital in Austin, TX to analyze their hardware and create an analytical look at that data. My role is essentially a consultant in helping the non-profit by recommending any technology decisions based on a cost/benfit relationship. I am also acting as a security consultant to identify any possible concerns across the software that the company uses.</p>
+					</div>
+					<div class="col-sm-6">
+						<img src="mc.png" style="height: 50%; width: 50%;margin-left: auto; margin-right:auto;" class="img-responsive rounded-corners" alt="">
+					</div>
+				</div>
+				<br>
+	            <div class="row">
+	            	<div class="col-sm-6">
+	                    <h2 class="h2" style="color:white;"><br>Pintos</h2>
+	                    <p class="p">In this infamous project, I programmed a simple operating system. Across the semester, I implemented priority scheduling and priority donation for threads, set up the infrastructure for user programs by setting up a stack and programming system calls. Beyond that, I also worked on virtual memory and file systems.</p>
+	                </div>
+	            	<div class="col-sm-6">
+	                    <img src="pintos.jpg" style="height: 275px; width: 275px;margin-left: auto; margin-right:auto;" class="img-responsive rounded-corners" alt="">
+	                </div>
+	            </div>
+	            <br>
+				<div class="row">
+					<div class="col-sm-6">
+						<h2 class="h2" style="color:white;"><br>Huffman Coding</h2>
+						<p class="p">In this project, based on David Huffman's graduate project, I used a Huffman Tree (which is based off of a Binary Search Tree) to compress files (jpg, txt, bmp, etc) to much smaller sizes. The tree kept track of characters and their frequency and assigned a code for that number to optimize the compression. A decompression algorithm was also programmed to retrieve the original file after it has been compressed.</p>
+					</div>
+					<div class="col-sm-6">
+						<img src="hf.png" style="height: 70%; width: 70%;margin-left: auto; margin-right:auto;" class="img-responsive rounded-corners" alt="">
+					</div>
+				</div>
+	     		<br>
+
+			</section>
+		</div>
+	</div>
+
+	<div class="about">
+		<div class="container">
+			<section>
+				<div class="page-header" id="aboutme">
+					<h2 class="h2" style="color:white;">About Me</h2>
+				</div>
+				<div class="container" style="color:white;">
+				<p>stuff</p>
+				<p>stuff</p>
+				<p>stuff</p>
+				<p>stuff</p>
+				<p>stuff</p>
+				<p>stuff</p>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="skills">
+		<div class="container">
+			<section style="font-family: open sans;">
+				<div class="page-header" id="skills">
+					<h2 class="h2" style="color:white;">Skills<br></h2>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="panel panel-default skills">
+							<div class="panel-body">
+								<h4 class="text-center" style="color:white;">Programming Languages</h4>
+								<ul style="color:white;">
+									<li>Proficiency in Java</li>
+									<li>Intermediate in Python</li>
+									<li>Intermediate in C</li>
+									<li>Intermediate in HTML/CSS</li>
+									<li>Exposure to C++</li>
+									<li>Exposure to SQL</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="panel panel-default skills">
+							<div class="panel-body">
+								<h4 class="text-center" style="color:white;">Software</h4>
+								<ul style="color:white;">
+									<li>Well-versed with Linux</li>
+									<li>Well-versed with Microsoft Office</li>
+									<li>Comfortable with Git</li>
+									<li>Something</li>
+									<li>Something</li>
+									<li>Something</li>
+								</ul>						
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="panel panel-default skills">
+							<div class="panel-body">
+								<h4 class="text-center" style="color:white;">Interests</h4>
+								<ul style="color:white;">
+									<li>Information Security</li>
+									<li>Data Mining</li>
+									<li>Data Analytics</li>
+									<li>Web Development</li>
+									<li>Artifical Intelligence</li>
+									<li>Mobile Development</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<footer class="foot" style="font-family: open sans;">
+		<div class="container" style="text-align:center">
+			<br>
+			<ul class="list-inline">
+				<li><a href="https://github.com/matthewetrahan" class="jump"><i class="fa fa-github fa-3x" style="color:#FFFFFF;"></i></a></li>
+				<li><a href="https://twitter.com/MatthewTrahann" class="jump"><i class="fa fa-twitter fa-3x" style="color:#00aced;"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/matthew-trahan-677147106" class="jump"><i class="fa fa-linkedin fa-3x" style="color:#007bb6;"></i></a></li>
+				<li><a href="" class="jump"><i class="fa fa-file-text fa-3x" style="color:#FFFFFF;"></i></a></li>
+			</ul>
+			<p style="text-align:center; margin-bottom: 0;">Feel free to email me at mtrahan920@sbcglobal.net<br>&copy; Copyright 2016 Matthew Trahan.<br> All Rights Reserved.</p>
+			<br>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+	<script>
+		  $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                $('html, body').animate({
+                 scrollTop: target.offset().top
+                }, 1000);
+                return false;
+                }
+            }
+        });
+        });
+	</script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
